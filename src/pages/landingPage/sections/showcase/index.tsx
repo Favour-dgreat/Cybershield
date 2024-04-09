@@ -1,5 +1,4 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Icon from '../../../../assets/icons/Vector 4.png';
+
 import { RegularButton } from '../../../../components/buttons';
 import styles from "./showcase.module.css";
 

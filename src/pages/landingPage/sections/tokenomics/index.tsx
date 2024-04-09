@@ -1,10 +1,7 @@
 import styles from './thisyear.module.css';
-import Image from '../../../../components/images';
 // import thisyearImg from '../../../../assets/pictures/ellipse.png';
 import thisyearImg1 from '../../../../assets/pictures/shape.png';
-import thisyearImg2 from '../../../../assets/icons/Ellipse.png';
-import thisyearImg3 from '../../../../assets/icons/Rectangle28.png';
-import thisyearImg4 from '../../../../assets/icons/Rectangle29.png';
+
 
 
 const ThisYear = () => {
