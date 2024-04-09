@@ -1,0 +1,437 @@
+.thisyear_container {
+  height: 100vh;
+  background-image: url('../../../../assets/pictures/cmbg.png');  
+  z-index: 1; 
+  margin-top: -30px;
+  background-color: #151616;
+  background-size: cover;
+  text-align: center;
+}
+/* .thriving{
+  background: -webkit-linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+
+@media (min-width: 1025px) {
+  .thisyear_container {
+    height: 100vh;
+    background-image: url('../../../../assets/pictures/cmbg.png');  
+    z-index: 1; 
+    margin-top: -30px;
+    background-color: #151616;
+    background-size: cover;
+    text-align: center;
+  }
+  .thriving{
+    left: 333px; 
+    top: 82px; 
+    position: absolute; 
+    color: #00D4F7;
+    font-size: 48px; 
+    font-family: Montserrat; 
+    font-weight: 700;  
+    word-wrap: break-word;
+  }
+  .contents{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+  .popoutDiv1 {
+    left: 150px; 
+    top: 171px; 
+    position: absolute; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%); 
+    border-radius: 29.60px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 14.80px; 
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv1:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .popoutDiv2 {
+    left: 725px; 
+    top: 170px; 
+    position: absolute; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%); 
+    border-radius: 28.80px; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 14.40px; 
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv2:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  .popout1{
+    width: 444px; 
+    padding-top: 20.72px; 
+    padding-bottom: 58.96px; 
+    padding-left: 14.80px; 
+    padding-right: 16.28px; 
+    border-radius: 14.80px; 
+    overflow: hidden; 
+    flex-Direction: column; 
+    justify-Content: flex-start; 
+    align-items: flex-start; 
+    gap: 28.12px; 
+    display: inline-flex
+  }
+
+  .popout2{
+    width: 432px; 
+    padding-top: 20.16px; 
+    padding-bottom: 56.88px; 
+    padding-left: 14.40px; 
+    padding-right: 15.84px; 
+    border-radius: 14.40px; 
+    overflow: hidden; 
+    flex-Direction: column; 
+    justify-Content: flex-start; 
+    align-items: flex-start; 
+    gap: 27.36px; 
+    display: inline-flex
+  }
+  .thisyear_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .showcase_image{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .thisyear_images{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .thisyear_image1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+   padding-top: 30%;
+  }
+  .thisyear_image2{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .thisyear_image3{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .imageitself1{
+    width: 412.92px;
+    height: 318.20px; 
+    border-radius: 14.80px
+  }
+  .imageitself2{
+    width: 401.72px;
+    height: 309.60px; 
+    border-radius: 14.40px
+  }
+  
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1050px) {
+  .thisyear_container {
+    height: 100vh;
+    background-image: url('../../../../assets/pictures/cmbg.png');  
+    z-index: 1; 
+    margin-top: -30px;
+    background-color: #151616;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .thriving{
+    color: #00D4F7;
+    font-size: 48px; 
+    font-family: Montserrat; 
+    font-weight: 700;  
+    word-wrap: break-word;
+  }
+  .popoutDiv1 {
+    top: 151px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%); 
+    border-radius: 29.60px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 2%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv1:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .popoutDiv2 {
+    top: 151px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%); 
+    border-radius: 29.60px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 2%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv2:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  .popout1{
+    width: 400px; 
+    padding-top: 30.72px; 
+    padding-bottom: 38.96px; 
+    padding-left: 1.80px; 
+    border-radius: 14.80px; 
+    overflow: hidden; 
+    flex-Direction: column; 
+    justify-Content: flex-start; 
+    align-items: flex-start; 
+    gap: 28.12px; 
+    display: block;
+  }
+
+  .popout2{
+    width: 400px; 
+    padding-top: 30.72px; 
+    padding-bottom: 38.96px; 
+    padding-left: 1.80px; 
+    border-radius: 14.80px; 
+    overflow: hidden; 
+    flex-Direction: column; 
+    justify-Content: flex-start; 
+    align-items: flex-start; 
+    gap: 28.12px; 
+    display: block;
+  }
+
+  .imageitself1{
+    width: 359.92px;
+    height: 288.20px; 
+    border-radius: 14.80px
+  }
+  .imageitself2{
+    width: 359.92px;
+    height: 288.20px; 
+    border-radius: 14.80px
+  }
+  .contents{
+    /* margin-top: 50px; */
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+  .popoutDiv1 {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv1:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .popoutDiv2 {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv2:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .thisyear_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .showcase_image{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .thisyear_images{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .thisyear_image1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+   padding-top: 30%;
+  }
+  .thisyear_image2{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .thisyear_image3{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .thisyear_container {
+    height: 100vh;
+    background-image: url('../../../../assets/pictures/cmbg.png');  
+    z-index: 1; 
+    margin-top: -30px;
+    background-color: #151616;
+    background-size: cover;
+    text-align: center;
+  }
+  /* .thriving{
+    background: -webkit-linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  .contents{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+  .popoutDiv1 {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv1:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .popoutDiv2 {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .popoutDiv2:hover {
+    transform: scale(1.1); /* Adjust the scale factor for your desired pop-out effect */
+  }
+  
+  .thisyear_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .showcase_image{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .thisyear_images{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .thisyear_image1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+   padding-top: 30%;
+  }
+  .thisyear_image2{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .thisyear_image3{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .thisyear_inner > h1 {
+    color: var(--grey);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 120px;
+  }
+  .thisyear_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+  }
+  .thisyear_flex_left,
+  .thisyear_flex_right {
+    display: flex;
+    align-items: center;
+    width: 43%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .thisyear_flex_left_icon {
+    position: absolute;
+    top: 10%;
+    right: -160px;
+    width: 140px;
+  }
+  .flex_icon {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 70px;
+  }
+  .thisyear_flex_right_icon {
+    position: absolute;
+    bottom: 13%;
+    left: -160px;
+    width: 140px;
+  }
+  .thisyear_flex_left p,
+  .thisyear_flex_right p {
+    padding: 110px;
+    color: var(--black);
+    /* text-align: right; */
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .destop_text {
+    display: block;
+  }
+  
+  .mobile_text {
+    display: none;
+  }
+}

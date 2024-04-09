@@ -1,0 +1,318 @@
+.thisyear_container {
+  height: 100%;
+  background-image: url('../../../../assets/pictures/bbb.png');  
+  z-index: 1; 
+  background-color: #151616;
+  background-size: cover;
+}
+
+
+@media (min-width: 1025px) {
+  .thisyear_container {
+    height: 100%;
+    background-image: url('../../../../assets/pictures/bbb.png');  
+    z-index: 1; 
+    background-color: #151616;
+    background-size: cover;
+  }
+  .potential{
+    font-family: 'Space Grotesk';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .story_item_image3{
+    display: flex;
+    width: 12%;
+    margin-left: 4%;
+  }
+  .story_item_image4{
+    display: flex;
+    width: 15%;
+    padding-top: 4%;
+    margin-left: 4%;
+  }
+  .story_item_image5{
+    display: flex;
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 9%;
+  }
+  .thisyear_text{
+    background-image: url(../../../../assets/pictures/j.png);
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 60%;
+    height: 40%;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+    margin-bottom: 50px;
+  }
+  .thisyear_shields{
+    width: 40%;
+    display: flex;
+  }
+
+  .thisyear_shield{
+    width: 50%;
+    padding: 5%;
+  }
+  .thisyear_servers{
+  font-family: 'Space Grotesk';
+  font-size: 26.85px;
+  font-weight: 800;
+  line-height: 35.8px;
+  text-align: left;
+  color: #fff
+  }
+  .scale{
+    margin-top: 30px;
+    max-width: 400px;
+  }
+
+  .thisyear_text1{
+    background-image: url(../../../../assets/pictures/j.png);
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 40%;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+    margin-bottom: 50px;
+
+  }
+  .thisyear_text2{
+    background-image: url(../../../../assets/pictures/j.png);
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 40%;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+
+  }
+  .thisyear_shields1{
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+  }
+
+  .thisyear_shield1{
+    width: 50%;
+    padding: 5%;
+  }
+  .thisyear_shield3{
+    width: 50%;
+    padding: 5%;
+    margin-left: 10%;
+  }
+  .thisyear_servers1{
+  font-family: 'Space Grotesk';
+  font-size: 26.85px;
+  font-weight: 800;
+  line-height: 35.8px;
+  text-align: left;
+  color: #fff
+  }
+  .scale1{
+    margin-top: 30px;
+    max-width: 400px;
+  }
+  .thisyear_inner {
+    height: 100%;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  
+  .destop_text {
+    display: block;
+  }
+  
+  .mobile_text {
+    display: none;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1050px) {
+ 
+  .thisyear_inner{
+    padding: 3%;
+  }
+  .potential{
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .story_item_image3{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    
+  }
+  .story_item_image4{
+    justify-content: center;
+    display: block;
+    width:60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: -5%;
+  }
+  .thisyear_shields1{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .story_item_image5{
+    display: block;
+    padding-top: 10%;
+    margin-right: 30%;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .thisyear_text{
+    background-image: url(../../../../assets/pictures/j.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+    margin-bottom: 50px;
+  }
+  .thisyear_shields{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .thisyear_shield{
+    margin-top: 80%;
+    display: block;
+    width: 100%;
+    padding: 3%;
+  }
+  .thisyear_servers{
+  font-family: 'Space Grotesk';
+  font-size: 26.85px;
+  font-weight: 800;
+  line-height: 35.8px;
+  text-align: center;
+  color: #fff
+  }
+  .scale{
+    text-align: center;
+    margin-top: 30px;
+    max-width: 400px;
+  }
+
+  .thisyear_text1{
+    background-image: url(../../../../assets/pictures/j.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+    margin-bottom: 50px;
+
+  }
+  .thisyear_text2{
+    background-image: url(../../../../assets/pictures/j.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    border: 1px solid #00D4F7;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing: border-box;
+    background-color: #262E30;
+    font-weight: 100;
+    margin-bottom: 50px;
+  }
+ 
+
+  .thisyear_shield1{
+    margin-top: 80%;
+    display: block;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+  }
+  .thisyear_shield3{
+    margin-top: 60%;
+    display: block;
+    width: 100%;
+    padding: 3%;
+  }
+  .thisyear_servers1{
+  font-family: 'Space Grotesk';
+  font-size: 26.85px;
+  font-weight: 800;
+  line-height: 35.8px;
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  }
+  .scale1{
+    margin-top: 30px;
+    max-width: 400px;
+  }
+  .thisyear_inner {
+    height: 100%;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+
+}

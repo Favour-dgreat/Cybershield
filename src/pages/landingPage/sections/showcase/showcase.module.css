@@ -1,0 +1,332 @@
+.showcase_container {
+  background-image: url('../../../../assets/pictures/Frame251.png');
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2.5;
+  
+}
+.showcase_inner{ 
+  padding-top: 15%;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 5%;
+}
+.showcase_span{
+  color: white;
+  font-family: 'Space Grotesk';
+  font-size: 60.01px;
+  font-weight: 500;
+  text-align: center; 
+}
+
+
+.showcase_span2{
+font-family: 'Space Grotesk';
+font-size: 67.01px;
+font-weight: 700;
+text-align: center;
+justify-content: center;
+align-items: center;
+background:radial-gradient(142% 91% at -6% 74%, #CFFE25 12%, #FF000000 99%),linear-gradient(0deg, #31EEFFFF 0%, #31EEFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.showcase_span4{
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  /* line-height: 28px; */
+  text-align: center;
+  color: #D3D3D3;
+  
+}
+
+.showcase_span4:hover{
+  color: #ffff;
+}
+.showcase_vector{
+  width: 35% !important;
+  height: 35% !important;
+  margin-left: 400px;
+}
+.showcase_link {
+  text-decoration: none;
+  color: #000; /* Set the desired text color */
+}
+
+.showcase_link:hover {
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-decoration: underline;
+  /* Add any additional styles for hover state if needed */
+}
+.button{
+  text-align: center;
+}
+.showcase_link{
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  
+
+}
+.showcase_icon{
+  width: 100% !important;
+  margin-top: 60px;
+}
+
+.showcase_button {
+  width: 190px;
+  margin-top: 100px;
+  padding: 9px 21px 9px 21px;
+  opacity: 0px;
+  border-radius: 20px;
+  font-family: 'Space Grotesk';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+
+  
+}
+
+.showcase_button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(white, white);
+  mask-image: linear-gradient(white, white);
+}
+
+.showcase_button:hover{
+  background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1050px) {
+  .showcase_container {
+    background-image: url('../../../../assets/pictures/Frame251.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .showcase_inner{
+    text-align: center;
+    padding-top: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 10%;
+    justify-content: center;
+  }
+  .showcase_span{
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center; 
+  }
+  
+  
+  .showcase_span2{
+  font-family: 'Space Grotesk';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background:radial-gradient(142% 91% at -6% 74%, #CFFE25 12%, #FF000000 99%),linear-gradient(0deg, #31EEFFFF 0%, #31EEFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .sss{
+    margin-top: -50px;
+  }
+  .ssg{
+    margin-top: -40px;
+  }
+  .showcase_span4{
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #D3D3D3;
+  }
+  .ssh{
+    margin-bottom: 30px;
+  }
+  
+  .showcase_span4:hover{
+    color: #ffff;
+  }
+
+  .showcase_vector{
+    width: 35% !important;
+    height: 35% !important;
+    margin-left: 400px;
+  }
+  
+  .showcase_link:hover {
+    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    /* Add any additional styles for hover state if needed */
+  }
+
+  .showcase_link{
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+  }
+
+  .showcase_link:hover{
+    text-decoration: underline;
+  }
+  
+  
+  .showcase_button {
+    margin-top: -120px;
+    position: relative;
+    height: 40px;
+    padding: 0px 19px 0px 19px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    /* display: block; */
+    background: white;
+    font-size: 15px;
+  }
+  
+  .showcase_button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    -webkit-mask-image: linear-gradient(white, white);
+    mask-image: linear-gradient(white, white);
+  }
+  
+  .showcase_button:hover{
+    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .showcase_container {
+    height: 100%;
+    background-image: url('../../../../assets/pictures/hero.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .showcase_span4:hover{
+    color: #ffff;
+  }
+  .showcase_vector{
+    width: 35% !important;
+    height: 35% !important;
+    margin-left: 400px;
+  }
+  .showcase_link {
+    text-decoration: none;
+    color: #000; /* Set the desired text color */
+  }
+  
+  .showcase_link:hover {
+    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    text-decoration: underline;
+    /* Add any additional styles for hover state if needed */
+  }
+  .button{
+    display: flex;
+  }
+  .showcase_link{
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  
+  .showcase_button {
+    position: relative;
+    margin-top: 20px;
+    height: 40px;
+    padding: 0px 29px 0px 29px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    background: white;
+    font-size: 18px;
+  }
+  
+  .showcase_button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    z-index: -1;
+    -webkit-mask-image: linear-gradient(white, white);
+    mask-image: linear-gradient(white, white);
+  }
+  
+  .showcase_button:hover{
+    background: linear-gradient(90.13deg, #0DE0F3 0.2%, #109EF3 18.17%, #536AAF 40.92%, #536AAF 56.6%, #8460E0 76.25%, #512555 94.73%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}

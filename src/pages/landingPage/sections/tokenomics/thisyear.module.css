@@ -1,0 +1,470 @@
+.thisyear_container {
+  height: 100%;
+  background-color: #151616;
+  background-image: url('../../../../assets/pictures/shhh.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 20%;
+  text-align: center;
+}
+/* YourStyles.module.css */
+
+.tokenomics{
+margin-left: 10%;
+margin: 0 auto;  
+justify-content: center;
+/* gap: 10px; */
+
+}
+
+.thisyear_inner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+.thisyear_image {
+  float: right;
+  width: 10%;
+ 
+}
+.thisyear_image2 {
+  max-width: 30%;
+  margin-top: -13%;
+  left: 15%;
+ 
+}
+
+.thisyear_inner > h1 {
+  color: var(--grey);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 120px;
+}
+.thisyear_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.thisyear_flex_left,
+.thisyear_flex_right {
+  display: flex;
+  align-items: center;
+  width: 43%;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.thisyear_flex_left_icon {
+  position: absolute;
+  top: 10%;
+  right: -160px;
+  width: 140px;
+}
+.flex_icon {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  width: 70px;
+}
+.thisyear_flex_right_icon {
+  position: absolute;
+  bottom: 13%;
+  left: -160px;
+  width: 140px;
+}
+
+
+.destop_text {
+  display: block;
+}
+
+.mobile_text {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .thisyear_container {
+    height: 100%;
+    background-color: black;
+    background-image: url('../../../../assets/pictures/shhh.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1; 
+    padding-bottom: 20%;
+    text-align: center;
+  }
+  /* YourStyles.module.css */
+  .thisyear_image4{
+    display: none;
+  }
+  .animatedDiv {
+    max-width: 80%;
+    padding-top: 49px; 
+    padding-bottom: 49px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    width: 38%;
+    height: 100%;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10;
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animatedDiv1 {
+    margin-left: 5%;
+    max-width: 80%;
+    padding-top: 49px; 
+    padding-bottom: 80px;
+    padding-left: 70px; 
+    padding-right: 70px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10px; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    width: 38%;
+    height: 100%;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10;
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .animatedDiv2 {
+    width: 40%; 
+    margin-top: -2%; 
+    margin-left: 5%;
+    max-width: 80%;
+    padding-top: 49px; 
+    padding-bottom: 80px;
+    padding-left: 70px; 
+    padding-right: 70px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10px; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    width: 38%;
+    height: 100%;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10;
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .animatedDiv:hover {
+    transform: translateX(-25px); /* Adjust the value for your desired movement */
+  }
+  .animatedDiv1:hover {
+    transform: translateX(-25px); /* Adjust the value for your desired movement */
+  }
+  .animatedDiv2:hover {
+    transform: translateY(35px);
+  
+  }
+  
+  .tokenomics{
+  margin-left: 10%;
+  margin: 0 auto;  
+  justify-content: center;
+  /* gap: 10px; */
+  
+  }
+
+  .token{
+    padding: 120px;
+  }
+  .thisyear_tokenomics{
+    color: #fff; 
+    font-size: 48px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word; 
+  }
+  .thisyear_inner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2%;
+  }
+  
+  .thisyear_image {
+    margin-top: -28%;
+    float: right;
+   
+  }
+  .thisyear_image2 {
+    max-width: 30%;
+    margin-top: -14%;
+    left: 18.5%;
+  }
+  .thisyear_image3{
+    display: none;
+  }
+  
+  .thisyear_inner > h1 {
+    color: var(--grey);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 120px;
+  }
+  .thisyear_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+  }
+  .thisyear_flex_left,
+  .thisyear_flex_right {
+    display: flex;
+    align-items: center;
+    width: 43%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .thisyear_flex_left_icon {
+    position: absolute;
+    top: 10%;
+    right: -160px;
+    width: 140px;
+  }
+  .flex_icon {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 70px;
+  }
+  .thisyear_flex_right_icon {
+    position: absolute;
+    bottom: 13%;
+    left: -160px;
+    width: 140px;
+  }
+
+  
+  .destop_text {
+    display: block;
+  }
+  
+  .mobile_text {
+    display: none;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1050px) {
+  .token{
+    padding-bottom: 50px;
+    color: #fff;
+  }
+  
+  .thisyear_container {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1; 
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+  }
+  /* YourStyles.module.css */
+  
+  .animatedDiv {
+    max-width: 90%;
+    padding-top: 49px; 
+    padding-bottom: 49px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10;
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .thisyear_image3{
+    float: left;
+    margin-top: -15%;
+  }
+  .animatedDiv1 {
+    max-width: 90%;
+    padding-top: 80px; 
+    margin: 0 auto;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    width: 100%;
+    padding-bottom: 80px;
+    padding-left: 70px; 
+    padding-right: 70px; 
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10px; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .thisyear_image4{
+    float: right;
+    margin-top: -15%;
+  }
+  .animatedDiv2 {
+    width: 100%; 
+    margin-top: -30px;
+    max-width: 90%;
+    padding-top: 49px; 
+    padding-bottom: 80px;
+    
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10px; 
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid; 
+    height: 100%;
+    background: linear-gradient(180deg, #262E30 0%, rgba(6, 12, 12, 0) 100%);
+    border-radius: 10;
+    border: 1px rgba(216.88, 227.60, 229.37, 0.20) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .animatedDiv:hover {
+    transform: translateY(35px);
+  }
+  .animatedDiv1:hover {
+    transform: translateY(35px);
+  }
+  .animatedDiv2:hover {
+    transform: translateY(35px);
+  
+  }
+  
+  .tokenomics{
+  margin-left: 10%;
+  margin: 0 auto;  
+  justify-content: center;
+  /* gap: 10px; */
+  
+  }
+  .thisyear_tokenomics{
+    font-size: 39px;
+    color: #fff;
+  }
+  .thisyear_inner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2%;
+  }
+  
+  .thisyear_image {
+    margin-top: -28%;
+    float: right;
+   
+  }
+  .thisyear_image2 {
+    max-width: 30%;
+    margin-top: -13%;
+    left: 15%;
+   
+  }
+  
+  .thisyear_inner > h1 {
+    color: var(--grey);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 120px;
+  }
+  .thisyear_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+  }
+  .thisyear_flex_left,
+  .thisyear_flex_right {
+    display: flex;
+    align-items: center;
+    width: 43%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .thisyear_flex_left_icon {
+    position: absolute;
+    top: 10%;
+    right: -160px;
+    width: 140px;
+  }
+  .flex_icon {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 70px;
+  }
+  .thisyear_flex_right_icon {
+    position: absolute;
+    bottom: 13%;
+    left: -160px;
+    width: 140px;
+  }
+  .thisyear_flex_left p,
+  .thisyear_flex_right p {
+    padding: 110px;
+    color: var(--black);
+    /* text-align: right; */
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .destop_text {
+    display: block;
+  }
+  
+  .mobile_text {
+    display: none;
+  }
+}
