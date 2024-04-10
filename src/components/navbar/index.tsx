@@ -77,18 +77,17 @@ function Navbar() {
           >
             &times;
           </a>
-          <Link to="/">Home</Link>
 
 <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
   
 </AnchorLink>
-{/* <Link
+<Link
   target="__blank"
   to="#"
 >
-  Vision
-</Link> */}
+  Home
+</Link>
  <AnchorLink href='#tokenomics' style={{textDecoration: 'none'}}>
 
   Tokenomics

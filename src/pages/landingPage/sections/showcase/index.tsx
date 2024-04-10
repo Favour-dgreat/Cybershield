@@ -4,18 +4,12 @@ import styles from "./showcase.module.css";
 import {ArrowDownSquareFill}  from "react-bootstrap-icons";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const handleClick = () => {
-  // Find the next div to scroll to
-  const nextDiv = document.querySelector('.next-div');
-
-  // Scroll to the next div
-  if (nextDiv) {
-    nextDiv.scrollIntoView({ behavior: 'smooth' });
-  }
-};
 
 function Showcase() {
   return (
+    <div>
+      {/* Preload the image */}
+      <link rel="preload" href="../../../../assets/pictures/Frame251.png" as="image" />
     <div className={styles.showcase_container}>
     <div className={styles.showcase_inner}>
       <p className={styles.sss}><span className={styles.showcase_span}>Shield Your Data,</span></p>
@@ -37,7 +31,7 @@ function Showcase() {
             />
 
      </div>
-     <div style={{ marginTop: 30 }}>
+     <div className={styles.ar} style={{ marginTop: 30 }}>
       <AnchorLink href="#potential" style={{ textDecoration: 'none' }}>
         <button className={styles.appear_animation} style={{background: 'none', border:'none'}}>
           <ArrowDownSquareFill style={{ color: 'white', fontSize: 40 }} />
@@ -46,6 +40,7 @@ function Showcase() {
     </div>
      
       </div>
+    </div>
     </div>
   );
 }

@@ -5,6 +5,16 @@
   background-color: #151616;
   background-size: cover;
 }
+/* Add hover effects for text, text1, and text2 */
+.thisyear_text:hover,
+.thisyear_text1:hover,
+.thisyear_text2:hover {
+  transform: scale(1.1); /* Scale up to 110% on hover */
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Your existing styles for other elements */
+/* .thisyear_text, .thisyear_text1, .thisyear_text2, .thisyear_shields, .thisyear_shields1, .thisyear_shield, .thisyear_shield1, .thisyear_servers, .thisyear_servers1, .scale, .scale1, .story_item_image3, .story_item_image4, etc. */
 
 
 @media (min-width: 1025px) {

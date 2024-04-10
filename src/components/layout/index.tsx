@@ -1,6 +1,6 @@
 import Footer from "../footer";
 import Navbar from "../navbar";
-import Loader from "../loader"
+import Loader from "../loader/loader";
 function LandingLayout({ children }: any) {
   return (
     <div style={{ overflowX: "hidden" }}>

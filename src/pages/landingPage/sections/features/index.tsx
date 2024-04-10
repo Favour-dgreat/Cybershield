@@ -1,12 +1,34 @@
 import styles from './thisyear.module.css';
 import Image from '../../../../components/images';
 import thisfeature3Img from '../../../../assets/pictures/Features2.png';
+import { useEffect, useRef } from 'react';
 // import thisfeature2Img from '../../../../assets/pictures/Features2.png';
 // import thisfeature3Img from '../../../../assets/pictures/Features 3.png';
 
 const ThisYear = () => {
+    const featuresRef = useRef<HTMLDivElement>(null); // Type assertion to HTMLDivElement
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(styles['fade-in']);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+    if (featuresRef.current) { // Check if ref is not null
+        observer.observe(featuresRef.current);
+      }
+  
+
+    // Cleanup the observer
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
   return (
-    <div id='features' className={`${styles.thisyear_container} ${styles.features_container}`}>
+    <div ref={featuresRef} id='features' className={`${styles.thisyear_container} ${styles.features_container}`}>
 
          <Image
           data-aos="fade-up"
@@ -102,7 +124,7 @@ const ThisYear = () => {
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'rgba(0, 212, 247, 0.94)',  fontSize: 24, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Phase 1: Launch  </div>
             <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 12.41, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '400'}}>
+            <div style={{color: 'white', fontSize: 18, fontFamily: 'Montserrat', fontWeight: '400', lineHeight: 2}}>
                 <ul style={{listStyle:'none'}}>
         <li>- Research and analysis to maximize our marketing strategy</li>
         <li>- Website, telegram bot, telegram community server</li>
@@ -122,7 +144,7 @@ const ThisYear = () => {
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'rgba(0, 212, 247, 0.94)',  fontSize: 24, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}> Phase 2: Marketing </div>
             <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 12.41, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '400'}}>
+                <div style={{color: 'white', fontSize: 18, fontFamily: 'Montserrat', fontWeight: '400', lineHeight: 2}}>
                 <ul style={{listStyle:'none'}}>
                 <li>- WalletShield (TBA)</li>
         <li>- AduitShield (TBA)</li>
@@ -142,7 +164,7 @@ const ThisYear = () => {
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
             <div style={{color: 'rgba(0, 212, 247, 0.94)',  fontSize: 24, fontFamily: 'Montserrat', fontWeight: '700',  wordWrap: 'break-word'}}>  Phase 3: More Utilities </div>
             <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 12.41, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Montserrat', fontWeight: '400'}}> 
+            <div style={{color: 'white', fontSize: 18, fontFamily: 'Montserrat', fontWeight: '400', lineHeight: 2}}>
                 <ul style={{listStyle:'none'}}>
                 <li>- Partnership with Privacy and AI projects</li>
         <li>- 500 holders</li>
