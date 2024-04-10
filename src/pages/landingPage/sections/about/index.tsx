@@ -7,7 +7,7 @@ import thisfeature4Img from '../../../../assets/pictures/ai.png.png';
 
 const ThisYear = () => {
   return (
-    <div className={styles.thisyear_container}>
+    <div id='potential' className={styles.thisyear_container}>
 
        <div className={styles.thisyear_inner} > 
        <h3 className={styles.potential}>Unlock The Potential Of CyberShield</h3>

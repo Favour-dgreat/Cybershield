@@ -23,7 +23,25 @@
   width: 70%;
   margin: 0 auto;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* Initial position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+}
 
+.features-container {
+  animation: fadeIn 0.5s ease-in-out; /* Apply the animation */
+  opacity: 0; /* Initially set to invisible */
+}
+
+.features-container:hover {
+  animation-play-state: running; /* Restart animation on hover */
+}
 .thisyear_inner > h1 {
   color: var(--grey);
   text-align: center;

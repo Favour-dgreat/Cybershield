@@ -6,8 +6,7 @@ import thisfeature3Img from '../../../../assets/pictures/Features2.png';
 
 const ThisYear = () => {
   return (
-    <div id='features' className={styles.thisyear_container}>
-
+    <div id='features' className={`${styles.thisyear_container} ${styles.features_container}`}>
 
          <Image
           data-aos="fade-up"

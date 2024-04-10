@@ -81,7 +81,7 @@ function Navbar() {
 
 <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
-  Roadmap
+  
 </AnchorLink>
 {/* <Link
   target="__blank"
