@@ -210,7 +210,7 @@ background:radial-gradient(142% 91% at -6% 74%, #CFFE25 12%, #FF000000 99%),line
     color: #ffff;
   }
   .button{
-    margin-top: 30px;
+    margin-top: -35px;
   }
 
   .showcase_vector{
@@ -333,7 +333,7 @@ background:radial-gradient(142% 91% at -6% 74%, #CFFE25 12%, #FF000000 99%),line
   
   .showcase_button {
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
     height: 40px;
     padding: 0px 29px 0px 29px;
     align-items: center;
