@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import styles from './Loader.module.css'; // Assuming you're using CSS modules for styling
+import styles from './loader.module.css';
 
 const Loader = () => {
     const [loading, setLoading] = useState(true);
