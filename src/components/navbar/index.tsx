@@ -20,7 +20,7 @@ function Navbar() {
         <div className={styles.navbar_inner}>
           <p className={styles.navhead}>CYBERSHIELD</p>
           <div className={styles.navbar_ul}>
-            <Link to="/">Home</Link>
+            <Link to="https://whitepaper.csl.sh/">Home</Link>
 
             <AnchorLink href='#features' style={{textDecoration: 'none'}}>
 
@@ -37,10 +37,8 @@ function Navbar() {
               Tokenomics
               </AnchorLink>
 
-              <AnchorLink href='https://whitepaper.csl.sh/' style={{textDecoration: 'none'}}>
+              <Link to="https://whitepaper.csl.sh/">Whitepaper</Link>
 
-              Whitepaper
-              </AnchorLink>
 
               <AnchorLink href='#' style={{textDecoration: 'none'}}>
 
@@ -93,10 +91,8 @@ function Navbar() {
   Tokenomics
   </AnchorLink>
 
-  <AnchorLink href='https://whitepaper.csl.sh/' style={{textDecoration: 'none'}}>
+  <Link to="https://whitepaper.csl.sh/">Whitepaper</Link>
 
-  Whitepaper
-  </AnchorLink>
   <AnchorLink href='#' style={{textDecoration: 'none'}}>
 
               Chart
