@@ -70,7 +70,7 @@ Chart
               <Link target="__blank" to="https://twitter.com/CyberShieldERC">
                 <TwitterIcon />
               </Link>
-              <Link target="__blank" to="https://t.me/CyberShieldERC">
+              <Link target="__blank" to="https://csl.sh/telegram">
                 <TelegramIcon />
               </Link>
 
