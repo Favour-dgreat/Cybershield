@@ -144,6 +144,18 @@ background:radial-gradient(142% 91% at -6% 74%, #CFFE25 12%, #FF000000 99%),line
   font-size: 18px;
   text-decoration: underline;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

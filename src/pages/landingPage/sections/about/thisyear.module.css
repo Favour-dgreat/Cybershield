@@ -13,6 +13,17 @@
   transition: transform 0.3s ease; /* Add smooth transition effect */
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 /* Your existing styles for other elements */
 /* .thisyear_text, .thisyear_text1, .thisyear_text2, .thisyear_shields, .thisyear_shields1, .thisyear_shield, .thisyear_shield1, .thisyear_servers, .thisyear_servers1, .scale, .scale1, .story_item_image3, .story_item_image4, etc. */
 
